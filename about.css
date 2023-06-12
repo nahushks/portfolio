@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Padyakke Expanded One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bodyContent {
+    background-color: #c6cdd3;
+    /* background-color: #d1dce5; */
+    /* background: rgb(228, 230, 230); */
+    border: 2px solid #e2e2de;
+    border-radius: 28px;
+    margin: 61px 19px;
+
+}
+
+.welcome {
+    margin: 4% 23%;
+    font-size: 3rem;
+}
+
+body div img {
+    width: 22%;
+    margin: 43px 65px;
+    border-radius: 23px;
+    border: 2px solid #383434;
+}
+
+.startContent {
+    position: absolute;
+    top: 238px;
+    left: 29%;
+    right: 4%;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.projects {
+    font-size: 2rem;
+    padding: 25px 39px;
+
+}
+
+.projec {
+    font-size: 2rem;
+    padding: 25px 39px;
+
+}
+
+.Skill {
+    font-size: 2rem;
+    /* padding: 25px 39px; */
+
+}
+
+.box {
+    background: rgb(33, 28, 28);
+    width: 80vw;
+    height: 2px;
+    margin: 12px -8px;
+}
+
+.langName {
+    margin: 20px 29px;
+}
+
+.projectName {
+    margin: 20px 29px;
+}
+
+.project {
+    font-size: 2rem;
+}
+
+.lang {
+    /* margin: -54px 382px; */
+    font-size: 2rem;
+}
+
+.percentage {
+    display: flex;
+    justify-content: right;
+    margin: 8px 0px;
+    font-size: xx-large;
+}
+
+.pli {
+    margin: 7px 41px;
+}
+
+li {
+    margin: 0px 13px;
+}

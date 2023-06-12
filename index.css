@@ -1,0 +1,188 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    color: rgb(4, 4, 4);
+    background-color: aliceblue;
+    font-family: 'Padyakke Expanded One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #cbcad5;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 5% 36px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    font-size: 1.3rem;
+    color: rgb(96, 129, 158);
+
+}
+
+nav ul li button {
+    border: 0;
+    background-color: #cbcad5;
+    font-size: 1.0rem;
+}
+
+nav ul li button:hover {
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: rgb(96, 129, 158);
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0px;
+}
+
+.firstSection>div {
+    width: 35%;
+}
+
+.leftSection img {
+    /* background-color: rgb(220, 133, 133); */
+    width: 33%;
+    width: 93%;
+    margin: 122px 11px;
+}
+
+.rightSection {
+    /* background-color: rgb(201,184, 186); */
+    width: 34%;
+    font-size: 2.5rem;
+    margin: 163px 40px
+}
+
+.rightSection button {
+    padding: 10px;
+}
+.rightSection button .btn1{
+    /* padding: 10px; */
+    text-decoration: none;
+}
+
+.btn1 {
+    border: 2px solid #5d5252;
+    background-color: #43505d;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+.purple {
+    color: coral;
+}
+
+#element {
+    color: rgb(85, 93, 93);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+hr {
+    border: 0;
+    background: #897474;
+    height: 1.2px;
+    margin: 38px 76px;
+}
+
+main hr {
+    border: 0;
+    background: #897474;
+    height: 1.2px;
+    margin: 38px 76px;
+}
+
+.text-grey {
+    color: #897474
+}
+
+.secondSection h1 {
+    margin: 3px -6px;
+    font-size: 2.5rem;
+}
+
+.secondSection .box {
+    background: rgb(33, 28, 28);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+
+.highschool {
+    margin: -22px 4p
+}
+
+.scl {
+    font-size: 2.8rem;
+}
+
+.school {
+    margin: -57px 156px;
+    font-size: xx-large
+}
+
+.percentage {
+    display: flex;
+    justify-content: right;
+    margin: 8px 0px;
+    font-size: xx-large;
+}
+
+footer {
+    background: rgb(134, 136, 141);
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-between;
+}
+
+.footer>div {
+    width: 223px;
+}
